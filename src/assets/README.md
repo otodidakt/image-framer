@@ -1,0 +1,3 @@
+# assets
+
+Contains application assets

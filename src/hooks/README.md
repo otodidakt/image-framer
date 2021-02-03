@@ -1,0 +1,3 @@
+# hooks
+
+Contains application hooks
