@@ -7,3 +7,7 @@ export function getImageUrl(state: RootStore) {
 export function getCompletedCrop(state: RootStore) {
   return state.canvas.completedCrop
 }
+
+export function getArcText(state: RootStore) {
+  return state.canvas.text
+}

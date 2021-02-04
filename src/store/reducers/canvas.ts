@@ -13,6 +13,11 @@ export function canvasReducer(state = CANVAS, action: AnyAction) {
         ...state,
         completedCrop: action.completedCrop,
       }
+    case 'TEXT_ADDED':
+      return {
+        ...state,
+        text: action.text
+      }
     default:
       return state
   }
