@@ -1,5 +1,7 @@
+import MainLayout from 'layout'
+
 function App() {
-  return <div>Welcome to Image Framer!</div>
+  return <MainLayout />
 }
 
 export default App

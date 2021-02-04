@@ -6,6 +6,7 @@ import { ThemeProvider } from 'styled-components'
 import theme from 'config/theme'
 import store from 'store'
 import App from './App'
+import 'antd/dist/antd.css'
 
 ReactDOM.render(
   <React.StrictMode>
